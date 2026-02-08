@@ -210,7 +210,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 383418534}
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -433,6 +433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4aef3a2455f43fe41802cd9c19219e6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
+  clickEffect: {fileID: 5860871901159255659, guid: 50049319c3369bc4ca03e69f4f481597, type: 3}
 --- !u!1 &383418532
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,6 +463,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d2921ffe71ad7240b9ed8aa407c7c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CameraController
+  moveSpeed: 50
+  borderSize: 5
+  minLimit: {x: -50, y: -50}
+  maxLimit: {x: 50, y: 50}
+  target: {fileID: 363734699}
 --- !u!4 &383418534
 Transform:
   m_ObjectHideFlags: 0
@@ -474,7 +480,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 330585546}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &410087039
@@ -866,7 +873,6 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 1593365654}
