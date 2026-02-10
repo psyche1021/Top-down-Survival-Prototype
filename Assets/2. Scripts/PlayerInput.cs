@@ -1,3 +1,5 @@
+Ôªøusing System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerInput : MonoBehaviour
@@ -6,35 +8,89 @@ public class PlayerInput : MonoBehaviour
     Character character;
 
     [SerializeField] GameObject clickEffect;
+    [SerializeField] float interactRange = 2.0f;
+
+    ObjectOutline currentOutline;
+
+    Dictionary<KeyCode, Action> keyActions;
 
     void Awake()
     {
         mainCamera = Camera.main;
         character = GetComponent<Character>();
+
+        keyActions = new Dictionary<KeyCode, Action>()
+        {
+            { KeyCode.S, Stop },
+            // { KeyCode.A, Attack },
+        };
     }
 
     void Update()
     {
-        if (Input.GetMouseButton(1))
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
+        bool hasHit = Physics.Raycast(ray, out RaycastHit hit);
+
+        // Ïò§Î∏åÏ†ùÌä∏ Ïô∏Í≥ΩÏÑ†
+        if (hasHit)
         {
-            Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
-
-            if (Physics.Raycast(ray, out RaycastHit hit))
+            if (hit.collider.TryGetComponent(out ObjectOutline newOutline))
             {
-                character.Movement.MoveTo(hit.point);
-
-                if (Input.GetMouseButtonDown(1))
+                if (currentOutline != newOutline)
                 {
-                    Instantiate(clickEffect, hit.point + Vector3.up * 0.03f, Quaternion.LookRotation(hit.normal));
+                    ClearOutline();
+                    newOutline.SetOutline(true);
+                    currentOutline = newOutline;
                 }
             }
+            else
+            {
+                ClearOutline();
+            }
+        }
+        else
+        {
+            ClearOutline();
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        // Ïù¥Îèô
+        if (Input.GetMouseButton(1) && hasHit)
         {
-            character.Movement.Stop();
+            character.Movement.MoveTo(hit.point);
+        }
+
+        // Ïö∞ÌÅ¥Î¶≠ Ïù¥ÌéôÌä∏
+        if (Input.GetMouseButtonDown(1) && hasHit)
+        {
+            Instantiate(clickEffect, hit.point + Vector3.up * 0.03f, Quaternion.LookRotation(hit.normal));
+        }
+
+        // ÌÇ§ ÏûÖÎ†• Ï≤òÎ¶¨
+        HandleKeyboard();
+    }
+
+    void HandleKeyboard()
+    {
+        foreach (var pair in keyActions)
+        {
+            if (Input.GetKeyDown(pair.Key))
+            {
+                pair.Value.Invoke();
+            }
+        }
+    }
+
+    void Stop()
+    {
+        character.Movement.Stop();
+    }
+
+    void ClearOutline()
+    {
+        if (currentOutline != null)
+        {
+            currentOutline.SetOutline(false);
+            currentOutline = null;
         }
     }
 }
-
-// √ﬂ»ƒ πˆ∆∞¿Ã ∏πæ∆¡ˆ∏È µÒº≈≥ ∏Æ∏¶ »∞øÎ«œø© ≈∞ ¿‘∑¬∞˙ «‡µø¿ª ∏≈«Œ«ÿ »Æ¿Âº∫¿ª ∞Ì∑¡
