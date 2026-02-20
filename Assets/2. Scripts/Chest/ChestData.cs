@@ -4,6 +4,6 @@ using UnityEngine;
 public class ChestData : ScriptableObject
 {
     public Item[] possibleItems;
-    public int minItems = 1;
-    public int maxItems = 8;
+    public int minChestItemSlot = 1;
+    public int maxChestItemSlot = 8;
 }

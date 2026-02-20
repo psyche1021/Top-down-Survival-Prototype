@@ -2,19 +2,19 @@ using UnityEngine;
 
 public enum ItemType
 {
-    Consumable,
-    Equipment,
-    Material
+    Consumable, // 소모
+    Equipment, // 장비
+    Material // 재료
 }
 
 public enum ItemRarity
 {
-    Mythic,     // 빨간템, 초월
-    Legendary,  // 노란템, 전설
-    Epic,       // 보라템, 영웅
-    Rare,       // 파란템, 희귀
-    Uncommon,   // 초록템, 고급
-    Common      // 흰템, 일반
+    Mythic,     // 초월 (빨강)
+    Legendary,  // 전설 (노랑)
+    Epic,       // 영웅 (보라)
+    Rare,       // 희귀 (파랑)
+    Uncommon,   // 고급 (초록)
+    Common      // 일반 (흰색)
 }
 
 [CreateAssetMenu(menuName = "Item/Item")]

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Flower
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemName: "\uAF43"
-  description: "\uC608\uC058\uB2E4."
+  description: "\uB530\uB4EF\uD55C \uD587\uC0B4 \uC544\uB798 \uD65C\uC9DD \uD53C\uC5B4\uB0AC\uB2E4"
   icon: {fileID: 21300000, guid: 2be5d0baa0bd9c74ea33d3a9e393add0, type: 3}
-  maxStack: 6
+  maxStack: 3
   itemType: 2
-  rarity: 5
+  rarity: 0

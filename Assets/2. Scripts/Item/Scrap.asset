@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Scrap
   m_EditorClassIdentifier: Assembly-CSharp::Item
   itemName: "\uACE0\uCCA0"
-  description: "\uC5B4\uB514\uC5D0 \uC4F0\uC774\uB294 \uAC78\uAE4C\uC694?"
+  description: "\uC778\uB958\uC5D0\uAC8C \uAC00\uC7A5 \uC624\uB798\uB41C \uAE08\uC18D
+    \uC7AC\uC0DD\uC790\uC6D0"
   icon: {fileID: 21300000, guid: 42d62cdaca76bc946b6a27089929cbd4, type: 3}
-  maxStack: 6
+  maxStack: 3
   itemType: 2
-  rarity: 5
+  rarity: 4

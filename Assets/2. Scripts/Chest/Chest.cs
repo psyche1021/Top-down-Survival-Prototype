@@ -55,7 +55,7 @@ public class Chest : MonoBehaviour, IInteractable
     void GenerateRandomItems()
     {
         currentItems.Clear();
-        int count = Random.Range(data.minItems, data.maxItems + 1);
+        int count = Random.Range(data.minChestItemSlot, data.maxChestItemSlot + 1);
         
         for (int i = 0; i < count;i++)
         {

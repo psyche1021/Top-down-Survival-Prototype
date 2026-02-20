@@ -6,9 +6,9 @@ public class InventoryUIManager : MonoBehaviour
 {
     public static InventoryUIManager Instance;
 
-    [SerializeField] GameObject inventoryUI;       // Panel
-    [SerializeField] Transform itemSlotParent;     // GridLayoutGroup
-    [SerializeField] GameObject itemSlotPrefab;    // Button + Image + CountText
+    [SerializeField] GameObject inventoryUI; 
+    [SerializeField] Transform itemSlotParent; // 그리드 레이아웃이 붙은 오브젝트
+    [SerializeField] GameObject itemSlotPrefab;
 
     void Awake() => Instance = this;
 
