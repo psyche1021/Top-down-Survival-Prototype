@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Gemstone
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uC6D0\uC11D"
+  description: "\uC6D0\uC11D\uC740 \uBB34\uD55C\uD55C \uAC00\uB2A5\uC131\uC744 \uAC00\uC9C4
+    \uB3CC\uC774 \uC544\uB2C8\uB77C \uB2E4\uB4EC\uC9C0 \uC54A\uC73C\uBA74 \uC804\uD600
+    \uC4F8 \uB370\uAC00 \uC5C6\uB294 \uB3CC\uC774\uB77C\uB294 \uAC78 \uBAB0\uB790\uC5C8\uC9C0.."
+  icon: {fileID: 21300000, guid: 52730066477d6024fb846bce3ceb6daf, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

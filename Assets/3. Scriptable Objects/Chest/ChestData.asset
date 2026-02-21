@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0fae749cf2a1bb448ddc629cbb3618c, type: 3}
+  m_Name: ChestData
+  m_EditorClassIdentifier: Assembly-CSharp::ChestData
+  possibleItems:
+  - {fileID: 11400000, guid: bc1aad62db2147a4d8a3cd6d61ff0195, type: 2}
+  - {fileID: 11400000, guid: f41c19eb985874142af02310dc6cdb06, type: 2}
+  - {fileID: 11400000, guid: 14cffddc1649f234eba07df94f542166, type: 2}
+  - {fileID: 11400000, guid: 2d5566641a46a1e4e915201cd0e20bcf, type: 2}
+  - {fileID: 11400000, guid: 4f590a873dfda064999f74bdcec0b3ab, type: 2}
+  - {fileID: 11400000, guid: eafb9554f802edb4d9b9da632fe9cf9e, type: 2}
+  - {fileID: 11400000, guid: 7204eb8d17fc1c34d85387114f9fd718, type: 2}
+  - {fileID: 11400000, guid: 0ce5797689aa85349aa490b75e6c1eed, type: 2}
+  - {fileID: 11400000, guid: 6a5fba6bd879cbe409ec9736950202e5, type: 2}
+  - {fileID: 11400000, guid: 2fa54ed41c8e0e64abf4d1ff58036f87, type: 2}
+  - {fileID: 11400000, guid: 03bd868ca5eb8fc489cfa97290d9428f, type: 2}
+  - {fileID: 11400000, guid: fbb1379fe9b940644be310775e0309a6, type: 2}
+  - {fileID: 11400000, guid: 0ef06a9ca9ddcfc46bbf98be097a606e, type: 2}
+  - {fileID: 11400000, guid: effb5c84bf05a5240b4b491f771ea214, type: 2}
+  - {fileID: 11400000, guid: c2e7159e4ccc61241afd851c81b5f90a, type: 2}
+  - {fileID: 11400000, guid: d8dfc96e330b13c4ea91ef8659448d9e, type: 2}
+  - {fileID: 11400000, guid: d8833ff413f5062408e0004000d36e3d, type: 2}
+  - {fileID: 11400000, guid: ae0f47fc9a3020e458fac9f47d8863a8, type: 2}
+  - {fileID: 11400000, guid: d8a0e84d0a86b4e49a08c0aae61247b0, type: 2}
+  - {fileID: 11400000, guid: 5fee5d5bc0e83e543867bdcf06e34723, type: 2}
+  - {fileID: 11400000, guid: 5a73ca229461f8f43ae6a5819bd5c636, type: 2}
+  - {fileID: 11400000, guid: 46fae8c8f7962e5409559fd2b675c698, type: 2}
+  - {fileID: 11400000, guid: e7bf54e6a71fa0348a80ad4cb44be11e, type: 2}
+  - {fileID: 11400000, guid: 5bc0d81f4ae122b47a0cbdaedf5d9ec5, type: 2}
+  - {fileID: 11400000, guid: d7bb243b4fd565149b059305608231f7, type: 2}
+  - {fileID: 11400000, guid: d6d2c857733448b4086f0f7baffbe980, type: 2}
+  - {fileID: 11400000, guid: 91413fa4ffdbe4c459bd05082a259093, type: 2}
+  - {fileID: 11400000, guid: 2f237a2bc0ef7e24aa96c9a6705d799f, type: 2}
+  - {fileID: 11400000, guid: acfe0965c2aada844b6774e6c34335b2, type: 2}
+  - {fileID: 11400000, guid: fba881580a1256445999c553e7c846f7, type: 2}
+  - {fileID: 11400000, guid: f0883064fefef0d488af6a05ba401c9e, type: 2}
+  - {fileID: 11400000, guid: 73f0120e1c4c72c42ba4103e55c59e94, type: 2}
+  - {fileID: 11400000, guid: 55ad5c6ea50b79147b6f307058dabb54, type: 2}
+  - {fileID: 11400000, guid: 5aeb6be5cd342564c9d1f1d0981962f1, type: 2}
+  - {fileID: 11400000, guid: b9d174dd848b6464588c83fb6ce7a6c1, type: 2}
+  minChestItemSlot: 1
+  maxChestItemSlot: 8

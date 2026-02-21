@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Piano Wire
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uD53C\uC544\uB178\uC120"
+  description: "\uB098\uC77C\uB860\uC73C\uB85C \uCF54\uD305\uB41C \uC640\uC774\uC5B4.
+    \uD22C\uBA85\uD574\uC11C \uB208\uC5D0 \uC798 \uBCF4\uC774\uC9C0 \uC54A\uB294\uB2E4."
+  icon: {fileID: 21300000, guid: 427cea7ac713f4349b65cf5954fc01d7, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

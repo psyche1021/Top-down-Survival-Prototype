@@ -1,17 +1,17 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ItemTooltipUI : MonoBehaviour
 {
     public static ItemTooltipUI Instance;
 
     [SerializeField] GameObject tooltipPanel;
-    [SerializeField] Text nameText;
-    [SerializeField] Text descriptionText;
-    [SerializeField] Text itemTypeText;
+    [SerializeField] TextMeshProUGUI nameText;
+    [SerializeField] TextMeshProUGUI descriptionText;
+    [SerializeField] TextMeshProUGUI itemTypeText;
 
     bool isFollowing = false;
-    Vector3 tooltipOffset = new Vector3(150f, -90f, 0f);
+    [SerializeField] Vector3 tooltipOffset = new Vector3();
 
     void Awake()
     {

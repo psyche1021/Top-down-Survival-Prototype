@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Scissor
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uAC00\uC704"
+  description: "\uAC00\uC704 \uD558\uB098\uAC00 \uC788\uC73C\uB2C8 \uD55C\uAC00\uC704...\uB77C\uB294
+    \uC720\uBA38\uB97C \uC4F8 \uC218 \uC788\uC744 \uAC83 \uAC19\uB2E4."
+  icon: {fileID: 21300000, guid: 08ed33530dfe40f43b95b13ccbbef811, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

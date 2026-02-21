@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Lazer Pointer
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uB808\uC774\uC800 \uD3EC\uC778\uD130"
+  description: "\uB208\uC5D0 \uB300\uACE0 \uC3D8\uBA74 \uC2E4\uBA85\uD560 \uC704\uD5D8\uC774
+    \uC788\uB2E4. \uBE5B\uC758 \uC0B0\uB780\uC774 \uC801\uC5B4 \uBA40\uB9AC \uC788\uB294
+    \uBB3C\uCCB4\uC5D0\uAE4C\uC9C0 \uB2FF\uB294\uB2E4."
+  icon: {fileID: 21300000, guid: ff24e2e9f8ece5e4bbdda9bbee9683f9, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

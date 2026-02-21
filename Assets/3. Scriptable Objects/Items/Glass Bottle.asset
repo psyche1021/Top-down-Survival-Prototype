@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Glass Bottle
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uC720\uB9AC\uBCD1"
+  description: "\uB358\uC9C0\uBA74 \uC640\uC7A5\uCC3D! \uD558\uACE0 \uAE68\uC838\uBC84\uB9B4
+    \uAC83 \uAC19\uC740 \uC720\uB9AC\uBCD1."
+  icon: {fileID: 21300000, guid: 5d1be0cb1244ca04ebf7c371d2e4886d, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

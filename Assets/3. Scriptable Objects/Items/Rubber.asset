@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Rubber
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uACE0\uBB34"
+  description: "\uC804\uAE30\uC5D0 \uAC15\uD55C \uD0C4\uB825\uC131\uC774 \uB192\uC740
+    \uC18C\uC7AC. \uD574\uC801\uC655\uC744 \uB178\uB9AC\uC9C4 \uC54A\uB294\uB2E4.\uBB34"
+  icon: {fileID: 21300000, guid: 8fd04603481af764bb7a292f970d126c, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc308ca8f6e8d245b0c0713948449e0, type: 3}
+  m_Name: Feather
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  itemName: "\uAE43\uD138"
+  description: "\uD45C\uD53C\uAC00 \uBCC0\uD615\uB418\uC5B4 \uC0DD\uAE34 \uAC83\uC73C\uB85C
+    \uAC00\uBCCD\uACE0 \uBCF4\uC628\uB825\uC774 \uD06C\uBA70, \uC7A5\uC2DD\uD488\uC73C\uB85C\uB3C4
+    \uC0AC\uC6A9\uB41C\uB2E4."
+  icon: {fileID: 21300000, guid: 6d5c8e37381904648873e5bca4dec2e0, type: 3}
+  maxStack: 6
+  itemType: 2
+  rarity: 5
